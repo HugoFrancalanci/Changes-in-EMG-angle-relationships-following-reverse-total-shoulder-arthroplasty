@@ -4,10 +4,6 @@ function plotCombinedEMGPerSubjectWithSPM1DCycles(data_files)
     % et réalise une analyse SPM1D pour comparer les groupes.
     % Cette fonction permet de sélectionner trois cycles représentatifs avec ginput 
     % qui sont ensuite moyennés en UN SEUL cycle moyen représentatif pour l'analyse SPM1D.
-    %
-    % Paramètres:
-    %   data_files - Cellule contenant les chemins des fichiers .mat (jusqu'à 3)
-    %               ou chaîne de caractères pour un seul fichier
 
     % Ajouter le chemin vers SPM1D
     addpath(genpath('C:\Users\Francalanci Hugo\Documents\MATLAB\Stage Sainte-Justine\HUG\Statistics\spm1dmatlab-master'))  
@@ -1290,4 +1286,5 @@ fprintf('Calcul des ratios terminé.\n');
         fprintf('Figure finale créée avec les cycles représentatifs et les analyses SPM1D.\n');
         fprintf('Les barres horizontales indiquent les périodes significatives pour chaque comparaison.\n');
     end
+
 end
