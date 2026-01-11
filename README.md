@@ -19,12 +19,37 @@ Surface EMG and kinematic data recorded during standardised functional tasks wer
 - Variability (RMSD) computation  
 - Statistical analyses and figure generation  
 
+## Data structure (not publicly available)
+
+The code relies on preprocessed `.mat` files that are **not included** in this repository due to ethical constraints.
+
+The main data files used in the analyses are:
+
+### EMG data
+These files contain **EMG signals** for the combined functional tasks.
+
+- `combined_functional_data_ASYMPTO.mat`
+- `combined_functional_data_PREOP.mat`
+- `combined_functional_data_POSTOP.mat`
+
+### Kinematic-only data
+These files contain **thoracohumeral elevation angle** for the combined functional tasks.
+
+- `all_angles_statistics_Asymptomatic.mat`
+- `all_angles_statistics_Pre_operatoire.mat`
+- `all_angles_statistics_Post_operatoire.mat`
+
+Additional files:
+- `Cross_analysis_EMGxHT.m`: Main script (EMG–angle coupling analysis)
+- `plotCombinedEMGPerSubjectWithSPM1D.m`: EMG analysis and mean cycle for the combined functional tasks
+- `cycle_selections_combined_functional_data.mat`: selected movement cycles used for averaging the mean cycle
+
 ## Methods (summary)
 
 - EMG: band-pass filtering (15–475 Hz), rectification, RMS smoothing (250 ms), submaximal-task normalisation, time-normalised to 100% of the movement cycle  
 - Kinematics: TH elevation computed using ISB-recommended Euler angles  
 - Analysis: linear regression slopes and RMSD of EMG–angle relationships  
-- Statistics: ANOVA and post-hoc tests (α = 0.05)
+- Statistics: ANOVA and post-hoc tests
 
 ## Requirements
 
@@ -33,7 +58,8 @@ Surface EMG and kinematic data recorded during standardised functional tasks wer
 
 ## Data availability
 
-Raw data are not publicly available due to ethical constraints. Data can be provided upon reasonable request to the corresponding author.
+Raw and processed data are not publicly available due to ethical and institutional constraints.  
+Data can be made available upon reasonable request to the corresponding author.
 
 ## Contact
 
