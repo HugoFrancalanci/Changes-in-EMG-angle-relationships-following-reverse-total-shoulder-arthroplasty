@@ -61,7 +61,6 @@ Additional files:
 
 ## Data availability
 
-Raw and processed data are not publicly available due to ethical and institutional constraints.  
 Data can be made available upon reasonable request to the corresponding author.
 
 ## Contact
