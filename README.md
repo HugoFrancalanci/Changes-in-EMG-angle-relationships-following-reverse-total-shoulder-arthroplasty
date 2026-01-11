@@ -44,7 +44,7 @@ Additional files:
 - `plotCombinedEMGPerSubjectWithSPM1D.m`: EMG analysis and mean cycle for the combined functional tasks
 - `cycle_selections_combined_functional_data.mat`: selected movement cycles used for averaging the mean cycle
 
-## Methods (summary)
+## Methods
 
 - EMG: band-pass filtering (15–475 Hz), rectification, RMS smoothing (250 ms), submaximal-task normalisation, time-normalised to 100% of the movement cycle  
 - Kinematics: TH elevation computed using ISB-recommended Euler angles  
