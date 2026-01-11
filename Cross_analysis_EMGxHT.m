@@ -6,7 +6,6 @@
 %% ========== PART 1: EMG SCRIPT ========== %%
 fprintf('=== PART 1: EMG data generation ===\n');
 
-
 % addpath(genpath(%%% Define the path to the SPM1D toolbox %%%))
 
 % Define the EMG data files to be analyzed 
