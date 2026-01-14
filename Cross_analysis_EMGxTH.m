@@ -1,5 +1,3 @@
-%%  International Shoulder Group Congress 2026 %%
-
 %% Changes in EMG–angle relationships following reverse total shoulder arthroplasty %%
 % Hugo Francalanci, Nicolas Holzer, Yosra Cherni, Florent Moissenet
 
