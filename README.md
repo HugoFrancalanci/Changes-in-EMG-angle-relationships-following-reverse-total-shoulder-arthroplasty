@@ -4,8 +4,7 @@
 
 # Changes in EMG–angle relationships following reverse total shoulder arthroplasty
 
-This repository contains the MATLAB code used for the analyses of *Changes in EMG–angle relationships following reverse total shoulder arthroplasty*  
-**Francalanci H., Holzer N., Cherni Y., Moissenet F.**  
+This repository contains the MATLAB code used for the analyses of Changes in EMG–angle relationships following reverse total shoulder arthroplasty. 
 
 ## Overview
 
