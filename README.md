@@ -58,9 +58,4 @@ Additional files:
 
 ## Data availability
 
-Data can be made available upon reasonable request to the corresponding author.
-
-## Contact
-
-**Florent Moissenet**  
-florent.moissenet@unige.ch
+Data can be made available upon reasonable request.
